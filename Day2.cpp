@@ -1,3 +1,7 @@
+//N meetings - Given start and end time of various meetings find the
+//maximum rooms required for the given set of meetings 
+//TC - (O(N + NLogN + N))
+//SC - (O(N));
 #include<bits/stdc++.h>
 using namespace std;
 int findMaximumRooms(vector<int> &start, vector<int> &end, int n)

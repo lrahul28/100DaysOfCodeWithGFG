@@ -1,5 +1,7 @@
+//Find kth element after merging two sorted Arrays TC : O(log(min(m, n)))
 #include<bits/stdc++.h>
 using namespace std;
+
 int findKthElement(vector<int> &arr1, vector<int> &arr2, int n, int m, int k)
 {
 	// If second vector is small doing binary search on second array

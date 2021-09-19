@@ -1,3 +1,7 @@
+//Given an array and few queries find the sum from the
+//given start and end range of all the queries
+// TC - O(N)
+// SC - O(N)
 #include<bits/stdc++.h>
 using namespace std;
 vector<int> sumQuery2(vector<int> &arr, vector<int> &queries)

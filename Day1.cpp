@@ -1,4 +1,4 @@
-// Sort an array of 0s, 1s and 2s
+// Sort an array of 0s, 1s and 2s TC - (O(N))
 #include<bits/stdc++.h>
 using namespace std;
 void sort012(vector<int> &a)
