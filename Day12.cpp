@@ -19,7 +19,11 @@ int search(string s, string pat)
 			if(mp[s[j]] == 1)
 			{
 			 c--;
-			 if(c == 0) ans++;
+			 if(c == 0) 
+			 	{
+			 		ans++;
+			 		cout << j << endl;
+			 	}
 			}
 			mp[s[j]]--;
 			j++;
